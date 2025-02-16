@@ -1,0 +1,20 @@
+[project]
+name = "gdb-dashboard"
+version = "0.1.0"
+description = "A refactored fork of gdb-dashboard"
+authors = [
+    { name = "Andrea Cardaci", email = "cyrus.and@gmail.com" },
+    { name = "Eric Johnson", email = "eric.j.johnson22@gmail.com" },
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+homepage = "https://github.com/ejohnso49/gdb-dashboard"
+source = "https://github.com/ejohnso49/gdb-dashboard"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
