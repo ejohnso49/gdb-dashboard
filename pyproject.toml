@@ -1,6 +1,6 @@
 [project]
 name = "gdb-dashboard"
-version = "0.1.0"
+version = "0.17.4+fork"
 description = "A refactored fork of gdb-dashboard"
 authors = [
     { name = "Andrea Cardaci", email = "cyrus.and@gmail.com" },
@@ -14,6 +14,11 @@ dependencies = []
 [project.urls]
 homepage = "https://github.com/ejohnso49/gdb-dashboard"
 source = "https://github.com/ejohnso49/gdb-dashboard"
+
+[project.optional-dependencies]
+optional = [
+    "pygments>=2.19.1",
+]
 
 [build-system]
 requires = ["hatchling"]
