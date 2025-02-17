@@ -1,10 +1,11 @@
 # GDB dashboard - Modular visual interface for GDB in Python.
 #
-# https://github.com/cyrus-and/gdb-dashboard
+# https://github.com/ejohnso49/gdb-dashboard
 
 # License ----------------------------------------------------------------------
 
 # Copyright (c) 2015-2025 Andrea Cardaci <cyrus.and@gmail.com>
+# Copyright (c) 2025 Eric Johnson <eric.j.johnson22@gmail.com>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal

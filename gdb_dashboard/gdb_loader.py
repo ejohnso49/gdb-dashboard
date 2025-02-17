@@ -1,5 +1,5 @@
-import gdb_dashboard
+from gdb_dashboard import Dashboard
 
 
 def gdbundle_load():
-    gdb_dashboard.Dashboard.start()
+    Dashboard.start()
