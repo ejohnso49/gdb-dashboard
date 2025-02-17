@@ -37,7 +37,7 @@ dev = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "gdbundle", directory = "../gdbundle" },
+    { name = "gdbundle", editable = "../gdbundle" },
     { name = "mypy", specifier = ">=1.15.0" },
     { name = "pytest", specifier = ">=8.3.4" },
     { name = "ruff", specifier = ">=0.9.6" },
@@ -47,7 +47,7 @@ dev = [
 [[package]]
 name = "gdbundle"
 version = "0.0.4"
-source = { directory = "../gdbundle" }
+source = { editable = "../gdbundle" }
 
 [package.metadata]
 

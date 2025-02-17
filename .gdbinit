@@ -11,39 +11,7 @@ sys.path.extend(paths)
 
 # Init and load plugins
 import gdbundle
-gdbundle.init()
+gdbundle.init(additional=['gdb_dashboard'])
 
 end
 # -- gdbundle_END
-
-python
-
-import gdb_dashboard
-
-# XXX traceback line numbers in this Python block must be increased by 1
-end
-
-# Better GDB defaults ----------------------------------------------------------
-
-set history save
-set verbose off
-set print pretty on
-set print array off
-set print array-indexes on
-set python print-stack full
-
-# Start ------------------------------------------------------------------------
-
-python gdb_dashboard.Dashboard.start()
-
-# Fixes ------------------------------------------------------------------------
-
-# workaround for the GDB readline issue, see #325
-python import sys; sys.modules['readline'] = None
-
-# File variables ---------------------------------------------------------------
-
-# vim: filetype=python
-# Local Variables:
-# mode: python
-# End:

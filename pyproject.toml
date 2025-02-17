@@ -28,5 +28,11 @@ dev = [
     "types-gdb>=15.0.0.20241204",
 ]
 
+[tool.hatch.build.targets]
+include = [
+    "gdb_dashboard/*.py",
+    "scripts/*.gdb",
+]
+
 [tool.uv.sources]
-gdbundle = { path = "../gdbundle" }
+gdbundle = { path = "../gdbundle", editable = true }
